@@ -1,25 +1,29 @@
-# Credit-Risk-Modelling-using-ML
+# Credit Risk Model Optimization
 
-This project aims to develop a credit risk model to predict the likelihood of a borrower defaulting on a loan using various features from the dataset.
+## Project Overview
 
-## Project Overview and Steps
+This project aims to develop and optimize a credit risk model using machine learning techniques to predict the likelihood of loan defaults. The model leverages various borrower features to help financial institutions assess risk and make informed lending decisions.
 
-The project involves the following steps:
+## Key Features:
+- **Data Exploration & Preprocessing**: Cleaning, encoding, and scaling the dataset.
+- **Modeling**: Applying algorithms like Logistic Regression, Random Forest, and XGBoost.
+- **Evaluation**: Using metrics such as Accuracy, Precision, Recall, F1-Score, and ROC-AUC to assess model performance.
 
-1. Data Loading and Exploration: Loading the dataset and performing initial exploration to understand the structure and distribution of the data.
-2. Data Preprocessing: Cleaning and preparing the data for modeling, including handling missing values and encoding categorical variables.
-3. Feature Selection: Identifying the most significant features that influence the target variable.
-4. Model Building: Building and training multiple classification models.
-5. Model Evaluation: Evaluating the performance of the models using various metrics such as accuracy, precision, recall, and F1-score.
+## Files in This Repository:
+- **crm-code.ipynb**: Main Jupyter notebook for data processing, model building, and evaluation.
+- **case_study1.xlsx** & **case_study2.xlsx**: Datasets for credit risk modeling.
+- **Features_Target_Description.xlsx**: Descriptions of dataset features.
 
-## Models Used
-1. Random Forest
-2. XGBoost
-3. Decision Tree
+
+## Usage
+
+1. **Load Data**: Use the `case_study1.xlsx` or `case_study2.xlsx` dataset.
+2. **Preprocess Data**: Clean and scale the data.
+3. **Train & Evaluate**: Apply machine learning models and evaluate their performance.
+
+
 
 ## Conclusion
 
-The credit risk model developed in this project provides insights into the likelihood of a borrower defaulting on a loan. Key findings include:
+This project demonstrates how machine learning can be applied to optimize credit risk models, helping financial institutions make more informed lending decisions.
 
-Model Performance: The Random Forest, XGBoost, and Decision Tree models achieved accuracies of 76.37%, 78%, and 71% respectively on the test dataset. XGBoost performed little better after performing hyperparameter tuning through GridSearchCV.
-Classification Reports: Each model's precision, recall, and F1-score indicate their effectiveness in distinguishing between defaulters and non-defaulters.
